@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Mario",
+        "avatar_url":"https://avatarfiles.alphacoders.com/103/thumb-1920-103985.jpg"
+    },
+    {
+        "name":"Luigi",
+        "avatar_url":"https://i.pinimg.com/564x/75/97/12/759712abd30ecec7865705483ddc3b52.jpg"
+    },
+    {
+        "name":"Peach",
+        "avatar_url":"https://img.17qq.com/images/qnsgkwkky.jpeg"
+    },
+    {
+        "name":"Toad",
+        "avatar_url":"https://i1.sndcdn.com/avatars-000680077004-86u0wd-t200x200.jpg"
+    },
+    {
+        "name":"Bowser",
+        "avatar_url":"https://avatarfiles.alphacoders.com/192/192728.png"
+    }
+]
