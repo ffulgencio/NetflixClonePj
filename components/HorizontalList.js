@@ -13,8 +13,9 @@ const HorizontalList = ({title, movies, navigation}) => {
     <View>
       <Text style={{color: 'white', fontSize: 20}}>{title}</Text>
       <ScrollView horizontal>
-        {movies.map(movie => (
+        {movies.map((movie, i) => (
           <TouchableOpacity
+            key={i}
             onPress={() => navigation.navigate('Details', {id: movie.id})}>
             <Image
               source={{

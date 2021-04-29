@@ -29,7 +29,7 @@ const MovieHome = ({route, navigation}) => {
   }, []);
 
   return (
-    <ScrollView>
+    <ScrollView style={{backgroundColor: 'black'}}>
       <View style={styles.flixBackground}>
         {/* <Text style={styles.textWhite}>MovieHome</Text> */}
         {/* <Text style={styles.textWhite}>{name}</Text> */}
@@ -61,6 +61,7 @@ const styles = StyleSheet.create({
   flixBackground: {
     backgroundColor: 'black',
     flex: 1,
+    margin: 5,
   },
   textWhite: {
     color: 'white',

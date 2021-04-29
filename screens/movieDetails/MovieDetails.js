@@ -46,7 +46,7 @@ const MovieDetails = ({route}) => {
         <Text style={styles.textWhite}>{movie.overview}</Text>
         <View>
           <Text>Similares</Text>
-          <FlatList numColumns={3} data={[]} renderItem={() => {}}></FlatList>
+          {/* <FlatList numColumns={3} data={[]} renderItem={() => {}}></FlatList> */}
         </View>
       </ScrollView>
     </View>

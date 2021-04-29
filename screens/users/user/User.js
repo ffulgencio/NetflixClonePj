@@ -1,12 +1,13 @@
 import React, {useEffect} from 'react';
 import {View, Text, Image, TouchableOpacity, StyleSheet} from 'react-native';
 
-const User = ({name, avatar_url, navigation}) => {
+const User = ({name, avatar_url, navigation, key}) => {
   useEffect(() => {
     console.log(name);
   }, []);
   return (
     <TouchableOpacity
+      key={key}
       onPress={() => navigation.navigate('Movies', {name, avatar_url})}>
       <View style={styles.login}>
         <Image source={{uri: `${avatar_url}`}} style={styles.avatar} />

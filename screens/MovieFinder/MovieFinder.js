@@ -34,8 +34,9 @@ const MovieFinder = ({navigation}) => {
       )
         .then(response => response.json())
         .then(data => {
+          if (text !== '')
           setMovies(data.results.slice());
-          //console.warn('search', data);
+
         })
         .catch(err => {
           console.error(err);

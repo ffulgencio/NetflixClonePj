@@ -16,7 +16,7 @@ const UserList = ({users, navigation}) => {
         data={users}
         numColumns={2}
         // keyExtractor={(user, index) => user.name}
-        renderItem={({item}) => <User {...item} navigation={navigation} />}
+        renderItem={({item},i) => <User {...item} navigation={navigation} key={i}/>}
       />
     </View>
   );
